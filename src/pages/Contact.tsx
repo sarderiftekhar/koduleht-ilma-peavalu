@@ -108,7 +108,7 @@ export const Contact: React.FC = () => {
                   <Mail className="h-5 w-5 text-primary" />
                   <div>
                     <div className="font-medium">{t('email')}</div>
-                    <div className="text-muted-foreground">info@businesssolutions.ee</div>
+                    <div className="text-muted-foreground">info@muruhooldus.ee</div>
                   </div>
                 </div>
               </CardContent>

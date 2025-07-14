@@ -18,73 +18,74 @@ const translations = {
     contact: 'Kontakt',
     
     // Hero Section
-    heroTitle: 'Professionaalsed ärilahendused teie edukuseks',
-    heroSubtitle: 'Pakume kvaliteetseid teenuseid, mis aitavad teie äril kasvada ja areneda. Meie asjatundjate meeskond on siin, et toetada teid igal sammul.',
-    heroButton: 'Alusta koostööd',
-    learnMore: 'Tutvu lähemalt',
+    heroTitle: 'Professionaalne muruhooldus teie kodu jaoks',
+    heroSubtitle: 'Pakume kvaliteetseid murulõikuse, hekilõikuse ja aiahoolduse teenuseid. Meie asjatundjate meeskond hoiab teie muru alati korras ja kaunina.',
+    heroButton: 'Küsi pakkumist',
+    learnMore: 'Tutvu teenustega',
     
     // Services Section
     servicesTitle: 'Meie teenused',
-    servicesSubtitle: 'Laialdane valik professionaalseid lahendusi',
+    servicesSubtitle: 'Täielik muruhoolduse lahendus teie kodu jaoks',
     
-    service1Title: 'Ärikonsultatsioon',
-    service1Description: 'Professionaalne nõustamine äriprotsesside optimeerimiseks ja kasvu võimaldamiseks.',
+    service1Title: 'Murulõikus',
+    service1Description: 'Regulaarne ja professionaalne murulõikus, mis hoiab teie muru tervena ja kaunina aastaringselt.',
     
-    service2Title: 'Digitaalne turundus',
-    service2Description: 'Kaasaegsed turundusstrateegiad ja digitaalsed lahendused teie brändi tugevdamiseks.',
+    service2Title: 'Hekilõikus',
+    service2Description: 'Põõsaste, hekivõrkude ja dekoratiivtaimede lõikamine ning kujundamine.',
     
-    service3Title: 'Finantsnõustamine',
-    service3Description: 'Ekspertide abi finantsplaanimisel ja investeerimisotsuste tegemisel.',
+    service3Title: 'Aiakoristus',
+    service3Description: 'Lehestiku koristamine, umbrohu eemaldamine ja üldine aiahooldus.',
     
     // Features Section
     featuresTitle: 'Miks valida meid?',
     feature1Title: 'Kogemus',
-    feature1Description: 'Üle 10 aasta kogemust erinevates valdkondades',
+    feature1Description: 'Üle 10 aasta kogemust muruhoolduses ja haljastuses',
     
     feature2Title: 'Kvaliteet',
-    feature2Description: 'Kõrgeimad kvaliteedistandardid kõigis teenustes',
+    feature2Description: 'Kasutame ainult kvaliteetseid tööriistu ja tehnikaid',
     
-    feature3Title: 'Tugi',
-    feature3Description: '24/7 klienditugi ja personaalne lähenemisviis',
+    feature3Title: 'Usaldusväärsus',
+    feature3Description: 'Korrapärane teenindus ja alati õigel ajal kohal',
     
     // About Section
     aboutTitle: 'Meist',
-    aboutDescription: 'Oleme innovaatiline ettevõte, mis keskendub klientide vajaduste täitmisele ja pikaajaliste partnerlussuhete loomisele. Meie missioon on pakkuda tipptasemel teenuseid, mis aitavad ettevõtetel saavutada oma eesmärke.',
+    aboutDescription: 'Oleme kogemusega muruhoolduse ettevõte, mis spetsialierunud kvaliteetsetele murulõikuse ja hekilõikuse teenustele. Meie eesmärk on hoida teie aed alati kaunis ja korras, et saaksite nautida oma kodu ümbruse ilu.',
     
     // Pricing Page
     pricingTitle: 'Meie hinnakirjad',
-    pricingSubtitle: 'Valige teie vajadustele sobiv pakett',
+    pricingSubtitle: 'Valige teie vajadusele sobiv muruhoolduse pakett',
     
-    basicPlan: 'Baaspakett',
-    basicPrice: '€99',
+    basicPlan: 'Põhipakett',
+    basicPrice: '€25',
     basicFeatures: [
-      'Põhilised ärikonsultatsioonid',
-      'E-posti tugi',
-      'Iganädalased aruanded',
-      'Kuni 3 projektiga'
+      'Murulõikus kuni 300m²',
+      'Servalõikus',
+      'Korrapärane teenindus',
+      'Kord nädalas suvehooajal'
     ],
     
-    proPlan: 'Profipakett',
-    proPrice: '€299',
+    proPlan: 'Standardpakett',
+    proPrice: '€45',
     proFeatures: [
-      'Täielik ärikonsultatsioon',
-      'Prioriteetne tugi',
-      'Päevased aruanded',
-      'Piiramatult projekte',
-      'Personaalne nõustaja'
+      'Murulõikus kuni 600m²',
+      'Hekide lõikamine',
+      'Servalõikus ja äärete puhastus',
+      'Lehestiku koristamine sügisel',
+      'Prioriteetne teenindus'
     ],
     
-    enterprisePlan: 'Ettevõttepakett',
-    enterprisePrice: '€599',
+    enterprisePlan: 'Premium pakett',
+    enterprisePrice: '€75',
     enterpriseFeatures: [
-      'Kõik profipaketi teenused',
-      '24/7 tugi',
-      'Kohandatud lahendused',
-      'Meeskonna koolitus',
-      'Strateegiline planeerimine'
+      'Piiramatult muruala',
+      'Täielik aiahooldus',
+      'Hekilõikus ja kujundamine',
+      'Hooajaline aiakoristus',
+      'Väetamine ja umbrohutõrje',
+      'Aasta ringi hooldus'
     ],
     
-    month: '/kuu',
+    month: '/külastus',
     getStarted: 'Alusta',
     mostPopular: 'Populaarseim',
     
@@ -112,7 +113,7 @@ const translations = {
     closed: 'Suletud',
     
     // Footer
-    footerDescription: 'Professionaalsed ärilahendused teie edukuseks. Võtke meiega ühendust ja alustame koostööd juba täna.',
+    footerDescription: 'Professionaalne muruhooldus teie kodu jaoks. Võtke meiega ühendust ja küsige tasuta hinnapakkumist.',
     quickLinks: 'Kiirlingid',
     followUs: 'Jälgige meid',
     allRightsReserved: 'Kõik õigused kaitstud.',
@@ -124,79 +125,80 @@ const translations = {
     contact: 'Contact',
     
     // Hero Section
-    heroTitle: 'Professional business solutions for your success',
-    heroSubtitle: 'We provide quality services that help your business grow and develop. Our team of experts is here to support you every step of the way.',
-    heroButton: 'Start cooperation',
-    learnMore: 'Learn more',
+    heroTitle: 'Professional lawn care for your home',
+    heroSubtitle: 'We provide quality lawn mowing, hedge trimming and garden maintenance services. Our expert team keeps your lawn looking perfect all year round.',
+    heroButton: 'Get a quote',
+    learnMore: 'Learn about services',
     
     // Services Section
     servicesTitle: 'Our services',
-    servicesSubtitle: 'Wide range of professional solutions',
+    servicesSubtitle: 'Complete lawn care solution for your home',
     
-    service1Title: 'Business consulting',
-    service1Description: 'Professional advice for optimizing business processes and enabling growth.',
+    service1Title: 'Lawn mowing',
+    service1Description: 'Regular and professional lawn mowing to keep your grass healthy and beautiful year-round.',
     
-    service2Title: 'Digital marketing',
-    service2Description: 'Modern marketing strategies and digital solutions to strengthen your brand.',
+    service2Title: 'Hedge trimming',
+    service2Description: 'Trimming and shaping of bushes, hedges and decorative plants.',
     
-    service3Title: 'Financial consulting',
-    service3Description: 'Expert assistance in financial planning and investment decision making.',
+    service3Title: 'Garden cleanup',
+    service3Description: 'Leaf removal, weed control and general garden maintenance.',
     
     // Features Section
     featuresTitle: 'Why choose us?',
     feature1Title: 'Experience',
-    feature1Description: 'Over 10 years of experience in various fields',
+    feature1Description: 'Over 10 years of experience in lawn care and landscaping',
     
     feature2Title: 'Quality',
-    feature2Description: 'Highest quality standards in all services',
+    feature2Description: 'We use only quality tools and techniques',
     
-    feature3Title: 'Support',
-    feature3Description: '24/7 customer support and personal approach',
+    feature3Title: 'Reliability',
+    feature3Description: 'Regular service and always on time',
     
     // About Section
     aboutTitle: 'About us',
-    aboutDescription: 'We are an innovative company focused on meeting customer needs and building long-term partnerships. Our mission is to provide top-level services that help companies achieve their goals.',
+    aboutDescription: 'We are an experienced lawn care company specializing in quality lawn mowing and hedge trimming services. Our goal is to keep your garden always beautiful and well-maintained so you can enjoy the beauty of your home surroundings.',
     
     // Pricing Page
     pricingTitle: 'Our pricing',
-    pricingSubtitle: 'Choose the package that suits your needs',
+    pricingSubtitle: 'Choose the lawn care package that suits your needs',
     
     basicPlan: 'Basic package',
-    basicPrice: '€99',
+    basicPrice: '€25',
     basicFeatures: [
-      'Basic business consulting',
-      'Email support',
-      'Weekly reports',
-      'Up to 3 projects'
+      'Lawn mowing up to 300m²',
+      'Edge trimming',
+      'Regular service',
+      'Once weekly in summer season'
     ],
     
-    proPlan: 'Professional package',
-    proPrice: '€299',
+    proPlan: 'Standard package',
+    proPrice: '€45',
     proFeatures: [
-      'Full business consulting',
-      'Priority support',
-      'Daily reports',
-      'Unlimited projects',
-      'Personal advisor'
+      'Lawn mowing up to 600m²',
+      'Hedge trimming',
+      'Edge trimming and cleanup',
+      'Autumn leaf removal',
+      'Priority service'
     ],
     
-    enterprisePlan: 'Enterprise package',
-    enterprisePrice: '€599',
+    enterprisePlan: 'Premium package',
+    enterprisePrice: '€75',
     enterpriseFeatures: [
-      'All professional package services',
-      '24/7 support',
-      'Custom solutions',
-      'Team training',
-      'Strategic planning'
+      'Unlimited lawn area',
+      'Complete garden maintenance',
+      'Hedge trimming and shaping',
+      'Seasonal garden cleanup',
+      'Fertilizing and weed control',
+      'Year-round maintenance'
     ],
     
-    month: '/month',
+    month: '/visit',
     getStarted: 'Get started',
     mostPopular: 'Most popular',
     
     // Contact Page
     contactTitle: 'Contact us',
-    contactSubtitle: 'We are here to help you achieve your goals',
+    contactSubtitle: 'We are here to help you achieve the perfect lawn',
     
     contactInfo: 'Contact information',
     address: 'Address',
@@ -218,7 +220,7 @@ const translations = {
     closed: 'Closed',
     
     // Footer
-    footerDescription: 'Professional business solutions for your success. Contact us and let\'s start cooperation today.',
+    footerDescription: 'Professional lawn care for your home. Contact us and get a free quote today.',
     quickLinks: 'Quick links',
     followUs: 'Follow us',
     allRightsReserved: 'All rights reserved.',

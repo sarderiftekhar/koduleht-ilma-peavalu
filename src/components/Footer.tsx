@@ -92,13 +92,13 @@ export const Footer: React.FC = () => {
             <div className="space-y-2 text-muted-foreground">
               <p>{t('address')}: Tartu mnt 123, Tallinn</p>
               <p>{t('phone')}: +372 123 4567</p>
-              <p>{t('email')}: info@example.ee</p>
+              <p>{t('email')}: info@muruhooldus.ee</p>
             </div>
           </div>
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 Business Solutions. {t('allRightsReserved')}</p>
+          <p>&copy; 2024 Muruhooldus Estonia. {t('allRightsReserved')}</p>
         </div>
       </div>
     </footer>

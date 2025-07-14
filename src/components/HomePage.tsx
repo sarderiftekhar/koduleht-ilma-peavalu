@@ -13,12 +13,12 @@ import {
   Star
 } from 'lucide-react';
 
-import heroBusiness from '@/assets/hero-business.jpg';
-import serviceConsulting from '@/assets/service-consulting.jpg';
-import serviceMarketing from '@/assets/service-marketing.jpg';
-import serviceFinance from '@/assets/service-finance.jpg';
-import officeBuilding from '@/assets/office-building.jpg';
-import teamWork from '@/assets/team-work.jpg';
+import heroLawnService from '@/assets/hero-lawn-service.jpg';
+import serviceMowing from '@/assets/service-mowing.jpg';
+import serviceTrimming from '@/assets/service-trimming.jpg';
+import serviceCleanup from '@/assets/service-cleanup.jpg';
+import beautifulLawn from '@/assets/beautiful-lawn.jpg';
+import lawnTeam from '@/assets/lawn-team.jpg';
 
 export const HomePage: React.FC = () => {
   const { t } = useLanguage();
@@ -30,7 +30,7 @@ export const HomePage: React.FC = () => {
         <div className="absolute inset-0 bg-black/30" />
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${heroBusiness})` }}
+          style={{ backgroundImage: `url(${heroLawnService})` }}
         />
         <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
           <div className="max-w-3xl">
@@ -72,8 +72,8 @@ export const HomePage: React.FC = () => {
             <Card className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-2">
               <div className="aspect-video overflow-hidden rounded-t-lg">
                 <img
-                  src={serviceConsulting}
-                  alt="Business Consulting"
+                  src={serviceMowing}
+                  alt="Lawn Mowing Service"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -92,8 +92,8 @@ export const HomePage: React.FC = () => {
             <Card className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-2">
               <div className="aspect-video overflow-hidden rounded-t-lg">
                 <img
-                  src={serviceMarketing}
-                  alt="Digital Marketing"
+                  src={serviceTrimming}
+                  alt="Hedge Trimming Service"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -112,8 +112,8 @@ export const HomePage: React.FC = () => {
             <Card className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-2">
               <div className="aspect-video overflow-hidden rounded-t-lg">
                 <img
-                  src={serviceFinance}
-                  alt="Financial Consulting"
+                  src={serviceCleanup}
+                  alt="Garden Cleanup Service"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
@@ -187,8 +187,8 @@ export const HomePage: React.FC = () => {
 
             <div className="relative">
               <img
-                src={officeBuilding}
-                alt="Office Building"
+                src={beautifulLawn}
+                alt="Beautiful Maintained Lawn"
                 className="rounded-lg shadow-elegant w-full"
               />
               <div className="absolute inset-0 bg-gradient-primary/20 rounded-lg" />
@@ -203,8 +203,8 @@ export const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative">
               <img
-                src={teamWork}
-                alt="Team Work"
+                src={lawnTeam}
+                alt="Professional Lawn Care Team"
                 className="rounded-lg shadow-elegant w-full"
               />
               <div className="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-lg shadow-elegant">
@@ -212,7 +212,7 @@ export const HomePage: React.FC = () => {
                   <Users className="h-8 w-8" />
                   <div>
                     <div className="text-2xl font-bold">500+</div>
-                    <div className="text-sm opacity-90">Happy Clients</div>
+                    <div className="text-sm opacity-90">Satisfied Clients</div>
                   </div>
                 </div>
               </div>
