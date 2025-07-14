@@ -13,12 +13,7 @@ export const Pricing: React.FC = () => {
       name: t('basicPlan'),
       price: t('basicPrice'),
       period: t('month'),
-      features: [
-        'Põhilised ärikonsultatsioonid',
-        'E-posti tugi',
-        'Iganädalased aruanded',
-        'Kuni 3 projektiga'
-      ],
+      features: t('basicFeatures'),
       popular: false,
       buttonText: t('getStarted')
     },
@@ -26,13 +21,7 @@ export const Pricing: React.FC = () => {
       name: t('proPlan'),
       price: t('proPrice'),
       period: t('month'),
-      features: [
-        'Täielik ärikonsultatsioon',
-        'Prioriteetne tugi',
-        'Päevased aruanded',
-        'Piiramatult projekte',
-        'Personaalne nõustaja'
-      ],
+      features: t('proFeatures'),
       popular: true,
       buttonText: t('getStarted')
     },
@@ -40,64 +29,11 @@ export const Pricing: React.FC = () => {
       name: t('enterprisePlan'),
       price: t('enterprisePrice'),
       period: t('month'),
-      features: [
-        'Kõik profipaketi teenused',
-        '24/7 tugi',
-        'Kohandatud lahendused',
-        'Meeskonna koolitus',
-        'Strateegiline planeerimine'
-      ],
+      features: t('enterpriseFeatures'),
       popular: false,
       buttonText: t('getStarted')
     }
   ];
-
-  const getFeatures = (planName: string) => {
-    switch (planName) {
-      case t('basicPlan'):
-        return t('language') === 'et' ? [
-          'Põhilised ärikonsultatsioonid',
-          'E-posti tugi',
-          'Iganädalased aruanded',
-          'Kuni 3 projektiga'
-        ] : [
-          'Basic business consulting',
-          'Email support',
-          'Weekly reports',
-          'Up to 3 projects'
-        ];
-      case t('proPlan'):
-        return t('language') === 'et' ? [
-          'Täielik ärikonsultatsioon',
-          'Prioriteetne tugi',
-          'Päevased aruanded',
-          'Piiramatult projekte',
-          'Personaalne nõustaja'
-        ] : [
-          'Full business consulting',
-          'Priority support',
-          'Daily reports',
-          'Unlimited projects',
-          'Personal advisor'
-        ];
-      case t('enterprisePlan'):
-        return t('language') === 'et' ? [
-          'Kõik profipaketi teenused',
-          '24/7 tugi',
-          'Kohandatud lahendused',
-          'Meeskonna koolitus',
-          'Strateegiline planeerimine'
-        ] : [
-          'All professional package services',
-          '24/7 support',
-          'Custom solutions',
-          'Team training',
-          'Strategic planning'
-        ];
-      default:
-        return [];
-    }
-  };
 
   return (
     <div className="min-h-screen bg-background py-16 lg:py-24">
@@ -146,7 +82,7 @@ export const Pricing: React.FC = () => {
 
               <CardContent>
                 <ul className="space-y-3 mb-8">
-                  {getFeatures(plan.name).map((feature, featureIndex) => (
+                  {plan.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-start gap-3">
                       <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                       <span className="text-muted-foreground">{feature}</span>
@@ -176,11 +112,11 @@ export const Pricing: React.FC = () => {
         {/* Additional Info */}
         <div className="text-center mt-16">
           <p className="text-muted-foreground mb-4">
-            Need a custom solution? We're here to help.
+            {t('pricingAdditionalInfo')}
           </p>
           <Button asChild variant="outline" size="lg">
             <Link to="/contact">
-              Contact us for custom pricing
+              {t('customPricingButton')}
             </Link>
           </Button>
         </div>

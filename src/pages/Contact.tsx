@@ -30,8 +30,8 @@ export const Contact: React.FC = () => {
     // Simple form validation
     if (!formData.name || !formData.email || !formData.message) {
       toast({
-        title: "Error",
-        description: "Please fill in all required fields.",
+        title: t('formErrorTitle'),
+        description: t('formErrorMessage'),
         variant: "destructive"
       });
       return;
@@ -39,8 +39,8 @@ export const Contact: React.FC = () => {
     
     // Simulate form submission
     toast({
-      title: "Message sent!",
-      description: "Thank you for your message. We'll get back to you soon."
+      title: t('formSuccessTitle'),
+      description: t('formSuccessMessage')
     });
     
     // Reset form
@@ -148,7 +148,7 @@ export const Contact: React.FC = () => {
                   {t('contactForm')}
                 </CardTitle>
                 <CardDescription>
-                  Fill out the form below and we'll get back to you as soon as possible.
+                  {t('contactFormDescription')}
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -223,9 +223,9 @@ export const Contact: React.FC = () => {
             <div className="aspect-video bg-muted/30 flex items-center justify-center">
               <div className="text-center">
                 <MapPin className="h-12 w-12 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-semibold mb-2">Find us here</h3>
+                <h3 className="text-xl font-semibold mb-2">{t('contactMapTitle')}</h3>
                 <p className="text-muted-foreground">
-                  Interactive map would be integrated here<br />
+                  {t('contactMapDescription')}<br />
                   Tartu mnt 123, 10145 Tallinn, Estonia
                 </p>
               </div>
